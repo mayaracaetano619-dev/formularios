@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Slabo+13px&display=swap');
+
+* {
+    font-family: "Lobster Two", sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+legend {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    width: 45%;
+    font-size: 20px;
+    border: 4px solid rgb(243, 187, 115);
+    border-radius: 5px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 35%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 60%;
+    padding: 5px;
+} 
+
+label,
+input,
+select,
+textarea {
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    border: 0px;
+    border-radius: 2px;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+}
+
+.botoes {
+    justify-content: right;
+}
+
+button{
+    font-size: 20px;
+    border: 0;
+    padding: 20px;
+    border-radius: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button[type=reset] {
+    color: red;
+}
+
+button[type=submit] {
+    color: green
+}
